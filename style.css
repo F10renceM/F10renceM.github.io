@@ -1,0 +1,70 @@
+body {
+  background-image: linear-gradient(to right, #a300cc , #e580ff, #f5ccff);
+}
+
+h1  {
+  color: black;
+  text-align: center;
+}
+
+h2  {
+  color: black;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.page{
+  list-style-type: none;
+}
+
+.page li {
+  float: left;
+  margin: 10px;
+}
+
+.nav {
+  list-style-type: none;
+  background-color: beige;
+}
+
+.nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.nav li a {
+  text-decoration: none;
+}
+
+.active {
+  background-color: blueviolet;
+  color: white;
+}
+
+img {
+  width: 100px;
+  height: 150px;
+  float: left;
+/*margin-bottom: 10px;*/
+  margin-right: 10px;
+}
+
+.nav li: hover {
+  background-color: rgba(0,0,0,.2);
+  color: white;
+}
+.home li{
+  float: left;
+  width: 300px;
+  margin: 10px;
+  list-style-type: none;
+}
+
+.home li:hover {
+  color: black;
+  background-color: rgba(255,255,255,.2);
+}
+
